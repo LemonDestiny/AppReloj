@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #222;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contenedorHora {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 800px;
+  height: 500px;
+  background-color: #eee;
+  border-radius: 16px;
+  border: 8px solid #222;
+}
+
+.contenedorFecha{
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+#hora {
+  font-size: 150px;
+}
+
+#zonaHoraria{
+  color: #ACB5BD;
+}
