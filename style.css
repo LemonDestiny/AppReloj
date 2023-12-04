@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   color: #222;
+  font-family: "Caveat", cursive;
+  line-height: .9;
 }
 
 .contenedor {
@@ -25,16 +27,16 @@
   border: 8px solid #222;
 }
 
-.contenedorFecha{
+.contenedorFecha {
   display: flex;
   flex-direction: column;
   text-align: end;
 }
 
 #hora {
-  font-size: 150px;
+  font-size: 180px;
 }
 
-#zonaHoraria{
-  color: #ACB5BD;
+#zonaHoraria {
+  color: #acb5bd;
 }
